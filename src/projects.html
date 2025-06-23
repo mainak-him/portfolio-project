@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects - Maina Kamau</title>
+  <meta name="description" content="Maina Kamau's Projects" />
+  <meta name="author" content="Maina Kamau" />
+  <link rel="icon" href="../images/258777.JPEG" type="image/jpeg" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { poppins: ['Poppins','sans-serif'] }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-[#fbf8f2] text-[#d19466] font-poppins">
+  <header class="fixed top-0 w-full z-50 bg-[#fbf8f2] flex items-center justify-between py-6 px-8 lg:px-32 shadow-sm">
+    <div class="flex items-center">
+      <button onclick="history.back()" class="mr-4 cursor-pointer duration-200 hover:scale-125 active:scale-100" title="Go Back">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="stroke-blue-300"><path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" d="M11 6L5 12M5 12L11 18M5 12H19"/></svg>
+      </button>
+      <h1 class="text-2xl font-semibold">Maina Kamau</h1>
+    </div>
+    <nav>
+      <ul class="flex gap-6 list-none">
+        <li><a href="homepage.html" class="scale-90 flex items-center justify-center rounded-full bg-[#F1ddcf] px-6 py-2 shadow transition hover:translate-y-1"><span class="text-lg font-semibold text-[#d19466]">Home</span></a></li>
+        <li><a href="aboutme.html#about" class="scale-90 flex items-center justify-center rounded-full bg-[#F1ddcf] px-6 py-2 shadow transition hover:translate-y-1"><span class="text-lg font-semibold text-[#d19466]">About</span></a></li>
+        <li><a href="homepage.html#skills" class="scale-90 flex items-center justify-center rounded-full bg-[#F1ddcf] px-6 py-2 shadow transition hover:translate-y-1"><span class="text-lg font-semibold text-[#d19466]">Technical Skills</span></a></li>
+        <li><a href="projects.html#proj1" class="scale-90 flex items-center justify-center rounded-full bg-[#F1ddcf] px-6 py-2 shadow transition hover:translate-y-1"><span class="text-lg font-semibold text-[#d19466]">Projects</span></a></li>
+        <li><a href="aboutme.html#contact" class="scale-90 flex items-center justify-center rounded-full bg-[#F1ddcf] px-6 py-2 shadow transition hover:translate-y-1"><span class="text-lg font-semibold text-[#d19466]">Contact</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="pt-36 px-8 lg:px-32 space-y-16">
+    <section class="flex justify-center">
+      <nav class="space-x-4">
+        <a href="#proj1" class="text-lg font-medium hover:underline">Project 1</a>
+        <a href="#proj2" class="text-lg font-medium hover:underline">Project 2</a>
+      </nav>
+    </section>
+
+    <section id="proj1" class="space-y-6 max-w-4xl mx-auto">
+      <h2 class="text-2xl font-semibold">Python to-do using Tkinter library</h2>
+      <div class="w-full h-64 bg-gray-200 rounded-lg overflow-hidden">
+        <video class="w-full h-full object-cover" controls poster="../images/1000008587.JPEG">
+          <source src="../images/pythonproject.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <p class="text-base leading-relaxed text-gray-700">Description for Project 1 goes here.</p>
+      <a href="https://github.com/mainak-him/TkinterGuiTest" class="text-blue-500 hover:underline">View GitHub Repo</a>
+    </section>
+
+    <hr class="border-gray-300" />
+
+    <section id="proj2" class="space-y-6 max-w-4xl mx-auto">
+      <h2 class="text-2xl font-semibold">Project 2 - Article</h2>
+      <div class="w-full h-64 bg-gray-200 rounded-lg overflow-hidden">
+        <img src="../images/ictcenter.png" alt="University Data Centre Tour" class="w-full h-full object-cover" />
+      </div>
+      <p class="text-base leading-relaxed text-gray-700">Description for Project 2 goes here.</p>
+      <a href="https://ict.uonbi.ac.ke/index.php/latest-news/tour-university-data-centre-first-year-students" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">Visit Project 2 Link</a>
+    </section>
+
+    <hr class="border-gray-300" />
+
+    <section class="text-center text-gray-600 text-base italic pb-8">
+      More projects will be documented and done over time.
+    </section>
+
+    <section class="text-center">
+      <a href="https://github.com/mainak-him" target="_blank" rel="noopener noreferrer" class="text-lg font-medium text-blue-500 hover:underline">View more on GitHub</a>
+    </section>
+  </main>
+</body>
+</html>
