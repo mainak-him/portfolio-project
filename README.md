@@ -1,5 +1,7 @@
 # Personal Portfolio Website
 
+NOTE:--Run npm install to regenerate the node_modules file after fetching/cloning, I have chosen not to add it to .gitignore due to its sheer size
+
 This is a personal portfolio project built using **HTML** and **Tailwind CSS**. It showcases key sections including the Home, About Me, Contact, Technical Skills, and Projects. The project structure and style are designed for responsiveness and visual appeal.
 
 ---
