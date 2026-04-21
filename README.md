@@ -1,8 +1,5 @@
 # Personal Portfolio Website
 
-NOTE:--Run npm install to regenerate the node_modules file after fetching/cloning, I have chosen not to add it to .gitignore due to its sheer size
-
---X redirects to login page as I am still considering making a X account, some repo links may not show as the projects are private
 
 This is a personal portfolio project built using **HTML** and **Tailwind CSS**. It showcases key sections including the Home, About Me, Contact, Technical Skills, and Projects. The project structure and style are designed for responsiveness and visual appeal.
 
@@ -11,31 +8,26 @@ This is a personal portfolio project built using **HTML** and **Tailwind CSS**. 
 ## 🗂️ Project Structure
 
 project-root/
-│
-├── src/                      # Core HTML and CSS files
-│   ├── homepage.html         # Home page (renamed from index.html) includes technical skills.
-│   ├── aboutme.html          # About Me & Contact page
-│   ├── projects.html         # Projects & Skills page
-│   ├── input.css             # Tailwind input file
-│   └── output.css            # Tailwind generated output
-│
-├── images/                   # Project image/video assets
+├── src/                          # Core HTML and CSS files
+│   ├── homepage.html             # Home page (Technical skills included)
+│   ├── aboutme.html              # About Me & Contact page
+│   ├── projects.html             # Projects & Skills page
+│   ├── input.css                 # Tailwind input file
+│   └── output.css                # Tailwind generated output
+├── images/                       # Project image/video assets
 │   ├── ictcenter.png
 │   ├── IMG_0200.jpg
 │   ├── IMG_9183.JPG
 │   ├── IMG_9714.jpg
 │   ├── 258777.JPEG
 │   ├── 1000008587.JPEG
-│   └── pythonproject.m       
-│
-├── files-portfolio/          # Downloadable content
-│   └── MainaKCV.docx         # Resume/CV
-│
-├── node_modules/             # Node dependencies (if using Tailwind CLI)
-│
-├── package.json              # Project metadata and scripts
-├── package-lock.json         # Dependency lock file
-└── README.md                 # Project documentation
+│   └── pythonproject.m           # Python script/asset
+├── files-portfolio/              # Downloadable content
+│   └── MainaKCV.docx             # Resume/CV
+├── node_modules/                 # Node dependencies (Git ignored)
+├── package.json                  # Project metadata and scripts
+├── package-lock.json             # Dependency lock file
+└── README.md                     # Project documentation
 
 
 ---
@@ -59,7 +51,6 @@ project-root/
 
 - **HTML5**
 - **Tailwind CSS**
-- **Custom SVGs and animations**
 
 ---
 
@@ -71,14 +62,3 @@ project-root/
 
 ---
 
-## 🧩 Future Improvements
-
-- Add dark mode toggle.
-- Optimize for mobile-first performance.
-- Integrate a contact form with backend support (optional).
-
----
-
-## 👤 Author
-
-Maina K. | Personal Portfolio Website
