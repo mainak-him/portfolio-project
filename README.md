@@ -7,13 +7,14 @@ This is a personal portfolio project built using **HTML** and **Tailwind CSS**. 
 
 ## 🗂️ Project Structure
 
+```text
 project-root/
 ├── src/                          # Core HTML and CSS files
 │   ├── homepage.html             # Home page (Technical skills included)
 │   ├── aboutme.html              # About Me & Contact page
 │   ├── projects.html             # Projects & Skills page
-│   ├── input.css                 # Tailwind input file
-│   └── output.css                # Tailwind generated output
+│   ├── input.css                 # CSS input file
+│   └── output.css                # CSS generated output
 ├── images/                       # Project image/video assets
 │   ├── ictcenter.png
 │   ├── IMG_0200.jpg
@@ -28,7 +29,7 @@ project-root/
 ├── package.json                  # Project metadata and scripts
 ├── package-lock.json             # Dependency lock file
 └── README.md                     # Project documentation
-
+```
 
 ---
 
